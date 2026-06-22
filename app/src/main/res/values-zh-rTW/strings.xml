@@ -89,4 +89,16 @@
     <string name="sing_tag_birthday">生日快樂</string>
     <string name="sing_tag_interval">音程練習 C-E-G</string>
     <string name="jianpu_rest">0</string>
+
+    <!-- Sing Practice presets -->
+    <string name="sing_presets_label">预设曲目</string>
+    <string name="sing_note_duration">%.0f秒</string>
+    <string name="sing_score_overview">%s · %d个音符</string>
+    <string name="sing_countdown_go">开始!</string>
+
+    <!-- Settings debug -->
+    <string name="settings_debug_log">查看调试日志</string>
+    <string name="settings_debug_title">调试日志</string>
+    <string name="settings_no_log">无日志</string>
+    <string name="settings_copied">已复制</string>
 </resources>

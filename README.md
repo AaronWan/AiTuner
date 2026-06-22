@@ -3,7 +3,7 @@
 <div align="center">
 
 ![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20Kotlin- green?style=flat-square&logo=android)
-![Language](https://img.shields.io/badge/Language-Multi--locale%20%28EN%2C%20ZH%2C%20TW%2C%20KO%29-blue?style=flat-square&logo=googletranslate)
+![Language](https://img.shields.io/badge/Language-EN%20%7C%20ZH%20%7C%20ZH--TW%20%7C%20KO%20%7C%20FR-blue?style=flat-square&logo=googletranslate)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)
 ![Min SDK](https://img.shields.io/badge/Min%20SDK-26%20%28Android%208.0%29-orange?style=flat-square)
 
@@ -48,6 +48,7 @@ AI Tuner is a mobile app that helps singers practice more effectively. It listen
 | `zh` | 简体中文 |
 | `zh-rTW` | 繁體中文 |
 | `ko` | 한국어 |
+| `fr` | Français |
 
 ---
 

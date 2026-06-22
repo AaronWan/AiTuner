@@ -11,6 +11,12 @@
     <string name="tuner_too_high">Too High ▼</string>
     <string name="tuner_sharp">Sharp ▾</string>
     <string name="tuner_offset">Off by %+.1f cents</string>
+    <string name="tuner_string_e">E</string>
+    <string name="tuner_string_a">A</string>
+    <string name="tuner_string_d">D</string>
+    <string name="tuner_string_g">G</string>
+    <string name="tuner_string_b">B</string>
+    <string name="tuner_string_e_high">e</string>
     <string name="tuner_start">Start Tuning</string>
     <string name="tuner_stop">Stop</string>
     <string name="chat_title">AI Guitar Assistant</string>

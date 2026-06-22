@@ -89,4 +89,16 @@
     <string name="sing_tag_birthday">생일 축하</string>
     <string name="sing_tag_interval">음정 연습 C-E-G</string>
     <string name="jianpu_rest">0</string>
+
+    <!-- Sing Practice presets -->
+    <string name="sing_presets_label">기본 곡</string>
+    <string name="sing_note_duration">%.0f초</string>
+    <string name="sing_score_overview">%s · %d개 음표</string>
+    <string name="sing_countdown_go">시작!</string>
+
+    <!-- Settings debug -->
+    <string name="settings_debug_log">디버그 로그 보기</string>
+    <string name="settings_debug_title">디버그 로그</string>
+    <string name="settings_no_log">로그 없음</string>
+    <string name="settings_copied">복사됨</string>
 </resources>
