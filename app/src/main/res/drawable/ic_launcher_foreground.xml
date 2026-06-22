@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Background circle -->
+    <path
+        android:fillColor="#1A1A2E"
+        android:pathData="M54,54m-54,0a54,54 0,1 1,108 0a54,54 0,1 1,-108 0" />
+    <!-- Tuning fork / note shape -->
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M42,28 L42,60 C40,58 37,56 34,56 C28,56 24,60 24,66 C24,72 28,76 34,76 C40,76 44,72 44,66 L44,44 L64,38 L64,56 C62,54 59,52 56,52 C50,52 46,56 46,62 C46,68 50,72 56,72 C62,72 64,69 64,64 L64,28 Z" />
+</vector>

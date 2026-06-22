@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">AI 调音器</string>
+
+    <!-- Tuner Screen -->
+    <string name="tuner_title">AI 调音器</string>
+    <string name="tuner_target">目标: %s</string>
+    <string name="tuner_waiting">等待弹奏…</string>
+    <string name="tuner_too_low">太低 ▲</string>
+    <string name="tuner_flat">偏低 ▴</string>
+    <string name="tuner_close">接近中…</string>
+    <string name="tuner_in_tune">✓ 已调准</string>
+    <string name="tuner_too_high">太高 ▼</string>
+    <string name="tuner_sharp">偏高 ▾</string>
+    <string name="tuner_offset">偏移 %+.1f 音分</string>
+    <string name="tuner_string_e">E</string>
+    <string name="tuner_string_a">A</string>
+    <string name="tuner_string_d">D</string>
+    <string name="tuner_string_g">G</string>
+    <string name="tuner_string_b">B</string>
+    <string name="tuner_string_e_high">e</string>
+    <string name="tuner_start">开始调音</string>
+    <string name="tuner_stop">停止</string>
+
+    <!-- AI Chat Screen -->
+    <string name="chat_title">AI 吉他助手</string>
+    <string name="chat_back">返回</string>
+    <string name="chat_greeting">我是你的吉他调音和乐理助手\n试试问：</string>
+    <string name="chat_suggestion_1">标准调音怎么调？</string>
+    <string name="chat_suggestion_2">DADGAD 调弦有什么特点？</string>
+    <string name="chat_suggestion_3">我的吉他弦距太高怎么办？</string>
+    <string name="chat_thinking">思考中…</string>
+    <string name="chat_hint">输入问题…</string>
+    <string name="chat_send">发送</string>
+    <string name="chat_close">关闭</string>
+    <string name="chat_error_prefix">AI 请求失败: %s</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">AI 设置</string>
+    <string name="settings_back">返回</string>
+    <string name="settings_provider">选择 Provider</string>
+    <string name="settings_aihub_name">Aihub (默认)</string>
+    <string name="settings_aihub_desc">公司内部代理，支持多模型</string>
+    <string name="settings_ollama_name">Ollama (本地)</string>
+    <string name="settings_ollama_desc">离线运行，需安装 Ollama</string>
+    <string name="settings_openai_name">OpenAI</string>
+    <string name="settings_openai_desc">ChatGPT / GPT-4o</string>
+    <string name="settings_claude_name">Claude</string>
+    <string name="settings_claude_desc">Anthropic Claude</string>
+    <string name="settings_custom_name">自定义</string>
+    <string name="settings_custom_desc">任何 OpenAI 兼容 API</string>
+    <string name="settings_connection">连接配置</string>
+    <string name="settings_base_url">API 地址</string>
+    <string name="settings_model">模型</string>
+    <string name="settings_model_hint">例如: llama3.2, gpt-4o</string>
+    <string name="settings_api_key">API Key</string>
+    <string name="settings_api_key_optional">API Key (可选)</string>
+    <string name="settings_show">显示</string>
+    <string name="settings_ollama_hint">提示: 先安装 Ollama 并运行 ollama pull %s</string>
+    <string name="settings_save">保存配置</string>
+    <string name="settings_crash_log">查看崩溃日志</string>
+    <string name="settings_crash_title">崩溃日志</string>
+    <string name="settings_no_crash">没有崩溃记录</string>
+
+    <!-- Sing Practice Screen -->
+    <string name="sing_title">唱谱练习</string>
+    <string name="sing_jianpu">简</string>
+    <string name="sing_note">音</string>
+    <string name="sing_idle_title">AI 唱谱练习</string>
+    <string name="sing_idle_desc">让 AI 为你生成一段旋律，\n你跟着唱，系统自动评分</string>
+    <string name="sing_prompt_hint">描述你想要的练习，例如：\n"一段简单的 C 大调音阶"</string>
+    <string name="sing_generate">生成乐谱</string>
+    <string name="sing_generating">AI 正在生成乐谱…</string>
+    <string name="sing_parse_error">AI 生成的乐谱无法解析，试试换个描述</string>
+    <string name="sing_gen_fail">生成失败: %s</string>
+    <string name="sing_error">意外错误: %s</string>
+    <string name="sing_notes_count">%d 个音符</string>
+    <string name="sing_duration">约 %s 秒</string>
+    <string name="sing_rest">休</string>
+    <string name="sing_ready_hint">准备好后点击开始</string>
+    <string name="sing_rest_long">休止</string>
+    <string name="sing_silent">安静 %.0f 秒</string>
+    <string name="sing_target_freq">目标频率: %d Hz</string>
+    <string name="sing_your_pitch">你的音: %s (%d Hz)</string>
+    <string name="sing_waiting_sound">等待声音…</string>
+    <string name="sing_perfect">✓ 准!</string>
+    <string name="sing_good">~ 还行</string>
+    <string name="sing_flat_feedback">↑ 高了</string>
+    <string name="sing_sharp_feedback">↓ 低了</string>
+    <string name="sing_progress">%d / %d</string>
+    <string name="sing_stop">停止</string>
+    <string name="sing_complete">练习完成!</string>
+    <string name="sing_accuracy">准确率</string>
+    <string name="sing_stat_perfect">完美</string>
+    <string name="sing_stat_good">还行</string>
+    <string name="sing_stat_flat">偏高</string>
+    <string name="sing_stat_sharp">偏低</string>
+    <string name="sing_stat_missed">错过</string>
+    <string name="sing_detail_title">详细记录</string>
+    <string name="sing_sang_note">唱了 %s 偏移 %d 音分</string>
+    <string name="sing_new_song">换一首</string>
+    <string name="sing_retry">再练一次</string>
+    <string name="sing_rest_label">休息</string>
+    <string name="sing_not_sang">没唱</string>
+    <string name="sing_start">开始</string>
+
+    <!-- Quick prompt tags -->
+    <string name="sing_tag_scale">C大调音阶</string>
+    <string name="sing_tag_twinkle">小星星第一句</string>
+    <string name="sing_tag_birthday">生日快乐</string>
+    <string name="sing_tag_interval">音程练习 C-E-G</string>
+
+    <!-- Jianpu -->
+    <string name="jianpu_rest">0</string>
+
+    <!-- Sing Practice presets -->
+    <string name="sing_presets_label">内置曲目</string>
+    <string name="sing_note_duration">%.0fs</string>
+    <string name="sing_score_overview">%s · %d 个音符</string>
+    <string name="sing_countdown_go">唱!</string>
+
+    <!-- Settings debug -->
+    <string name="settings_debug_log">查看调试日志</string>
+    <string name="settings_debug_title">调试日志</string>
+    <string name="settings_no_log">无日志</string>
+    <string name="settings_copied">已复制</string>
+</resources>

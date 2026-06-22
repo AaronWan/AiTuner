@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AI Tuner</string>
+    <string name="tuner_title">AI Tuner</string>
+    <string name="tuner_target">Target: %s</string>
+    <string name="tuner_waiting">Waiting to play…</string>
+    <string name="tuner_too_low">Too Low ▲</string>
+    <string name="tuner_flat">Flat ▴</string>
+    <string name="tuner_close">Getting close…</string>
+    <string name="tuner_in_tune">✓ In Tune</string>
+    <string name="tuner_too_high">Too High ▼</string>
+    <string name="tuner_sharp">Sharp ▾</string>
+    <string name="tuner_offset">Off by %+.1f cents</string>
+    <string name="tuner_start">Start Tuning</string>
+    <string name="tuner_stop">Stop</string>
+    <string name="chat_title">AI Guitar Assistant</string>
+    <string name="chat_back">Back</string>
+    <string name="chat_greeting">I\'m your guitar tuning &amp; music theory assistant\nTry asking:</string>
+    <string name="chat_suggestion_1">How to tune standard?</string>
+    <string name="chat_suggestion_2">What is DADGAD tuning?</string>
+    <string name="chat_suggestion_3">My string action is too high!</string>
+    <string name="chat_thinking">Thinking…</string>
+    <string name="chat_hint">Ask a question…</string>
+    <string name="chat_send">Send</string>
+    <string name="chat_close">Close</string>
+    <string name="chat_error_prefix">AI request failed: %s</string>
+    <string name="settings_title">AI Settings</string>
+    <string name="settings_back">Back</string>
+    <string name="settings_provider">Select Provider</string>
+    <string name="settings_aihub_name">Aihub (Default)</string>
+    <string name="settings_aihub_desc">Internal proxy, multi-model</string>
+    <string name="settings_connection">Connection</string>
+    <string name="settings_base_url">API URL</string>
+    <string name="settings_model">Model</string>
+    <string name="settings_model_hint">e.g. llama3.2, gpt-4o</string>
+    <string name="settings_api_key">API Key</string>
+    <string name="settings_api_key_optional">API Key (Optional)</string>
+    <string name="settings_show">Show</string>
+    <string name="settings_ollama_hint">Tip: Install Ollama and run ollama pull %s</string>
+    <string name="settings_save">Save</string>
+    <string name="settings_crash_log">View Crash Log</string>
+    <string name="settings_crash_title">Crash Log</string>
+    <string name="settings_no_crash">No crash records</string>
+    <string name="sing_title">Sing Practice</string>
+    <string name="sing_jianpu">Jian</string>
+    <string name="sing_note">Note</string>
+    <string name="sing_idle_title">AI Sing Practice</string>
+    <string name="sing_idle_desc">AI generates a melody,\nyou sing along and get scored</string>
+    <string name="sing_prompt_hint">Describe the exercise, e.g.:\n"A simple C major scale"</string>
+    <string name="sing_generate">Generate</string>
+    <string name="sing_generating">AI generating score…</string>
+    <string name="sing_parse_error">Could not parse the score</string>
+    <string name="sing_gen_fail">Generation failed: %s</string>
+    <string name="sing_error">Error: %s</string>
+    <string name="sing_notes_count">%d notes</string>
+    <string name="sing_duration">~%s sec</string>
+    <string name="sing_rest">R</string>
+    <string name="sing_ready_hint">Ready? Press to start</string>
+    <string name="sing_rest_long">Rest</string>
+    <string name="sing_silent">Silent %.0f sec</string>
+    <string name="sing_target_freq">Target: %d Hz</string>
+    <string name="sing_your_pitch">You: %s (%d Hz)</string>
+    <string name="sing_waiting_sound">Waiting for sound…</string>
+    <string name="sing_perfect">✓ Perfect!</string>
+    <string name="sing_good">~ Good</string>
+    <string name="sing_flat_feedback">↑ Too High</string>
+    <string name="sing_sharp_feedback">↓ Too Low</string>
+    <string name="sing_progress">%d / %d</string>
+    <string name="sing_stop">Stop</string>
+    <string name="sing_complete">Practice Complete!</string>
+    <string name="sing_accuracy">Accuracy</string>
+    <string name="sing_stat_perfect">Perfect</string>
+    <string name="sing_stat_good">Good</string>
+    <string name="sing_stat_flat">Sharp</string>
+    <string name="sing_stat_sharp">Flat</string>
+    <string name="sing_stat_missed">Missed</string>
+    <string name="sing_detail_title">Details</string>
+    <string name="sing_sang_note">Sang %s off by %d cents</string>
+    <string name="sing_new_song">New Song</string>
+    <string name="sing_retry">Retry</string>
+    <string name="sing_rest_label">Rest</string>
+    <string name="sing_not_sang">None</string>
+    <string name="sing_start">Start</string>
+    <string name="sing_tag_scale">C Major Scale</string>
+    <string name="sing_tag_twinkle">Twinkle Twinkle</string>
+    <string name="sing_tag_birthday">Happy Birthday</string>
+    <string name="sing_tag_interval">Interval C-E-G</string>
+
+    <!-- Jianpu -->
+    <string name="jianpu_rest">0</string>
+
+    <!-- Sing Practice presets -->
+    <string name="sing_presets_label">Presets</string>
+    <string name="sing_note_duration">%.0fs</string>
+    <string name="sing_score_overview">%s · %d notes</string>
+    <string name="sing_countdown_go">Sing!</string>
+
+    <!-- Settings debug -->
+    <string name="settings_debug_log">View Debug Log</string>
+    <string name="settings_debug_title">Debug Log</string>
+    <string name="settings_no_log">No logs</string>
+    <string name="settings_copied">Copied</string>
+</resources>
